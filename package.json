@@ -2,9 +2,9 @@
   "name": "weatherupdatebroadcast",
   "version": "1.0.0",
   "description": "Api which fetches weather data from other api and sends it via message to other individuals.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon index.js"
+    "devStart": "nodemon server.js"
   },
   "author": "Sanmesh",
   "license": "ISC",
