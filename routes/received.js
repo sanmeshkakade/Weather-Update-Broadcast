@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  console.log(req);
+  console.log(req.query, req.body);
   res.json({ message: "received" });
 });
 
