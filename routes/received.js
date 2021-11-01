@@ -1,8 +1,18 @@
 const express = require("express");
-const Router = express.Router();
+const router = express.Router();
 const Subscriber = require("../models/subscriber");
 
 //subscribing to a service
+
+//Getting all
+router.get("/", async (req, res) => {
+  try {
+    const subscribers = await Subscriber.find();
+    res.json(subscribers);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
 
 //getting the data of subscriber
 async function getSubscriber(req, res, next) {
@@ -18,3 +28,5 @@ async function getSubscriber(req, res, next) {
   res.subscriber = subscriber;
   next();
 }
+
+module.exports = router;

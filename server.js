@@ -18,7 +18,7 @@ app.use(express.json());
 const messageRouter = require("./routes/received");
 app.use("/received", messageRouter);
 
-cron.schedule("*****", () => {
+cron.schedule("* * * * *", () => {
   console.log("Code to send messages");
   //code to send weather update.
 });
