@@ -6,6 +6,7 @@ const Subscriber = require("../models/subscriber");
 
 //Getting all
 router.get("/", async (req, res) => {
+  console.log(req);
   try {
     const subscribers = await Subscriber.find();
     res.json(subscribers);
