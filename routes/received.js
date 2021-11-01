@@ -5,14 +5,14 @@ const Subscriber = require("../models/subscriber");
 //subscribing to a service
 
 //Getting all
-router.get("/", async (req, res) => {
+router.get("/", (req, res) => {
   console.log(req);
-  try {
-    const subscribers = await Subscriber.find();
-    res.json(subscribers);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
+  // try {
+  //   const subscribers = await Subscriber.find();
+  //   res.json(subscribers);
+  // } catch (error) {
+  //   res.status(500).json({ message: error.message });
+  // }
 });
 
 router.post("/", (req, res) => {
