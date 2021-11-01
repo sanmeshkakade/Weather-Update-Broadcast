@@ -1,4 +1,4 @@
-// require("dotenv").config();
+require("dotenv").config();
 
 let shelljs = require("shelljs");
 const cron = require("node-cron");
