@@ -18,6 +18,10 @@ app.use(express.json());
 const messageRouter = require("./routes/received");
 app.use("/received", messageRouter);
 
+app.get("/", (req, res) => {
+  res.status(200).send("Server is running...");
+});
+
 cron.schedule("* * * * *", () => {
   console.log("Code to send messages");
   //code to send weather update.
