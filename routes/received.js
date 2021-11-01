@@ -15,6 +15,11 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.post("/", async (req, res) => {
+  console.log(req);
+  res.json({ message: "received" });
+});
+
 //getting the data of subscriber
 async function getSubscriber(req, res, next) {
   let subscriber;
