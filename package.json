@@ -4,6 +4,7 @@
   "description": "Api which fetches weather data from other api and sends it via message to other individuals.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "devStart": "nodemon server.js"
   },
   "author": "Sanmesh",
