@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 });
 
 cron.schedule("* * * * *", () => {
-  console.log("Code to send messages");
+  // console.log("Code to send messages");
   //code to send weather update.
 });
 

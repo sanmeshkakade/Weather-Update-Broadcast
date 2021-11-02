@@ -5,9 +5,7 @@ const subcribersSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  subscribeToService: {
-    services: [String],
-  },
+  subscribedToService: [String],
   subscribeDate: {
     type: Date,
     required: true,

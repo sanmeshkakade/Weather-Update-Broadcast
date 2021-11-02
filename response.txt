@@ -1,0 +1,22 @@
+{
+   ToCountry:'US',
+   ToState: 'NJ',
+   SmsMessageSid: 'SM45271b53f3dd6d65ef61e063b7f8c9c6',
+   NumMedia: '0',
+   ToCity: '',
+   FromZip: '07604',
+   SmsSid: 'SM45271b53f3dd6d65ef61e063b7f8c9c6',
+   FromState: 'NJ',
+   SmsStatus: 'received',
+   FromCity: 'HASBROUCK HEIGHTS',
+   Body: 'check if this works',
+   FromCountry: 'US',
+   To: '+18482942578',
+   MessagingServiceSid:'MG81575294b29a45ff50b589646883981b',
+   ToZip: '',
+   NumSegments: '1',
+   MessageSid: 'SM45271b53f3dd6d65ef61e063b7f8c9c6',
+   AccountSid: 'AC57e54278afb54a5430038ed0f24475fb',
+   From: '+12014263056',
+   ApiVersion: '2010-04-01'
+ } 

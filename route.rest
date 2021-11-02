@@ -1,0 +1,10 @@
+POST http://localhost:3000/received/
+# Content-Type: application/json
+
+# {
+#     "name":"Charming Person",
+#     "subscribeToChannel":"Coffee Shot Learning"
+# }
+
+###
+POST https://guarded-mesa-56262.herokuapp.com/received
